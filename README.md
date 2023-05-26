@@ -53,7 +53,7 @@ Once the servlet container is up and running, you can access the application by 
                     "profile_image": "",
                     "employee_anual_salary": "3849600"
                 },
-                ....
+                ...
         ]
 }
 ```
