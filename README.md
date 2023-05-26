@@ -66,7 +66,7 @@ Once the servlet container is up and running, you can access the application by 
         "employee_age": 66,
         "profile_image": "",
         "employee_anual_salary": 1032000
-    },
+    }
 ]
 ```
 
