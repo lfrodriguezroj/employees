@@ -4,7 +4,7 @@ This project is a Spring Boot application that demonstrates the implementation o
 
 ## Prerequisites
 
-Before running the War Spring Boot App, ensure that you have the following installed on your system:
+Before running the Employee Api, ensure that you have the following installed on your system:
 
 - Java Development Kit (JDK) version 17 or higher
 - Maven build tool
@@ -12,7 +12,7 @@ Before running the War Spring Boot App, ensure that you have the following insta
 
 ## Getting Started
 
-To run the War Spring Boot App on your local machine, follow the steps below:
+To run the Employee Api on your local machine, follow the steps below:
 
 1. Clone the project repository:
 ```
