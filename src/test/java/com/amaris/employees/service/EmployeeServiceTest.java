@@ -24,14 +24,12 @@ class EmployeeServiceTest {
     @Test
     void findAllEmployees() {
         underTest.findAllEmployees();
-        // then
         verify(employeeDAO).findAllEmployees();
     }
 
     @Test
     void findEmployeeById() {
         underTest.findEmployeeById(1);
-        // then
         verify(employeeDAO).findEmployee(1);
     }
 }
