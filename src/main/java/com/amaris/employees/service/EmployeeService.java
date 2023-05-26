@@ -25,8 +25,7 @@ public class EmployeeService {
     }
     public Employee findEmployeeById(int id) {
         Employee employee = employeeDAO.findEmployee(id);
-        employee.setEmployee_anual_salary(employee.getEmployee_salary() * 12);
-        System.out.println(employee);
+        if ( employee != null ) employee.setEmployee_anual_salary(employee.getEmployee_salary() * 12);
         return employee;
     }
 }
