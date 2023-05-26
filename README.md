@@ -42,33 +42,42 @@ Once the servlet container is up and running, you can access the application by 
 
 ### GET /api/v1/employees
 ``` json
-{
-    "status": "success",
-    "data": [
-                {
-                    "id": "1",
-                    "employee_name": "Tiger Nixon",
-                    "employee_salary": "320800",
-                    "employee_age": "61",
-                    "profile_image": "",
-                    "employee_anual_salary": "3849600"
-                },
-                ...
-        ]
-}
+[
+    {
+        "id": 1,
+        "employee_name": "Tiger Nixon",
+        "employee_salary": 320800,
+        "employee_age": 61,
+        "profile_image": "",
+        "employee_anual_salary": 3849600
+    },
+    {
+        "id": 2,
+        "employee_name": "Garrett Winters",
+        "employee_salary": 170750,
+        "employee_age": 63,
+        "profile_image": "",
+        "employee_anual_salary": 2049000
+    },
+    {
+        "id": 3,
+        "employee_name": "Ashton Cox",
+        "employee_salary": 86000,
+        "employee_age": 66,
+        "profile_image": "",
+        "employee_anual_salary": 1032000
+    },
+]
 ```
 
 ### GET /api/v1/employees/1
 ``` json
 {
-    "status": "success",
-    "data": {
-        "id": "1",
-        "employee_name": "Tiger Nixon",
-        "employee_salary": "320800",
-        "employee_age": "61",
-        "profile_image": "",
-        "employee_anual_salary": "3849600"
-    }
+	"id": 1,
+	"employee_name": "Tiger Nixon",
+	"employee_salary": 320800,
+	"employee_age": 61,
+	"profile_image": "",
+	"employee_anual_salary": 3849600
 }
 ```
