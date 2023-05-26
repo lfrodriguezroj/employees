@@ -1,10 +1,10 @@
-# Employee Api
+# Employees Api
 
 This project is a Spring Boot application that demonstrates the implementation of a web application using the Java-based Spring framework. The application is packaged as a WAR (Web Application Archive) file and can be deployed to a compatible servlet container.
 
 ## Prerequisites
 
-Before running the Employee Api, ensure that you have the following installed on your system:
+Before running the Employees Api, ensure that you have the following installed on your system:
 
 - Java Development Kit (JDK) version 17 or higher
 - Maven build tool
@@ -12,7 +12,7 @@ Before running the Employee Api, ensure that you have the following installed on
 
 ## Getting Started
 
-To run the Employee Api on your local machine, follow the steps below:
+To run the Employees Api on your local machine, follow the steps below:
 
 1. Clone the project repository:
 ```
